@@ -1,0 +1,1 @@
+This bug demonstrates a common TypeScript error: providing an array of strings to a function expecting a single string.  The `greeter` function is defined to take a single string, but the `user` variable is an array of strings.  The solution shows how to correctly handle this situation by iterating through the array and applying the function to each element.
